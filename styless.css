@@ -1,0 +1,34 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/000/701/677/non_2x/abstract-polygonal-background-vector.jpg);
+}
+    /*background-repeat: no-repeat;
+}
+#news{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-invierno-acuarela_23-2148702810.jpg?w=2000);
+    background-repeat: no-repeat;
+    }*/
+/*modal fondo 
+#exampleModal{
+    background-color: lightgreen;
+}*/
+
+/*navbar*/
+#logoimagen{
+    border-radius: 1rem;
+    }
+/*historia*/
+#his{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+.filanew{
+    width: 60rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+/* contacto*/
+#pcont{
+    font-size: larger;
+}
+

@@ -1,16 +1,197 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Romeral</title>
+    <title>Vive Romeral</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="styless.css">
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top"> <!--sticky/ fixed-->
+        <div class="container-fluid">
+            <img class="img-fluid " id="logoimagen" src="https://muniromeral.cl/romeral/wp-content/uploads/2017/05/logo2-1.png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation ms-auto">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <!--nbarlinks derecha busca-->
+                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link active" href="./new.html">Noticias</a>
+                    <a class="nav-link active" href="./contact.html">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <!--slider-->
+        <div class="row pb-3">
+            <div class="col col-sm12">
+                <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <!--carousel-fade -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner rounded-5 ">
+                        <!--rounded-5-->
+                        <div class="carousel-item active">
+                            <img src="https://scontent.fscl13-1.fna.fbcdn.net/v/t31.18172-8/14324595_648373488660743_1263758374450052139_o.jpg?_nc_cat=111&ccb=1-7&_nc_sid=e3f864&_nc_ohc=H_d7Pp3z93gAX9fTWp8&_nc_ht=scontent.fscl13-1.fna&oh=00_AT-YondWQUPI-pE305bJa_q2g8OOlpkqI1F3ygCIHvS6YA&oe=62B66A2E"
+                                class="d-block w-100" alt="EL_arriero" height="550">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>El arriero</h5>
+                                <p>Romeral</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://2.bp.blogspot.com/-0dBLgUNtvtA/WsQttwQPdHI/AAAAAAAAB34/bNqKXjrNvqoHOMIM1laBeMcaK2LGtDB8QCLcBGAs/s1600/DSC_9762.JPG"
+                                class="d-block w-100" alt="bio_bio" height="550">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5 class="fslider">Monumento bio-bio</h5>
+                                <p class="fslider">Los queñes.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://www.daemromeral.cl/images/vergara/DSC03557.JPG" class="d-block w-100"
+                                alt="paso_vergara" height="550">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Paso vergara</h5>
+                                <p>Paso desde los queñes que conecta con argentina.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!--historia-->
+            <div id="his" class="p-4">
+                <h3>Un poco de historia</h3>
+                <div class="row ">
+                    <div class="col-12 col-md-12">
+                        <p>En la época de la colonia, Romeral era un llano inhóspito, cubierto por montes vírgenes de Romero, de donde le viene
+                            el nombre. Lo designaban ”El Monte de Romeral”, y, ubicado al sur del Río Teno. Con los años se formaron pequeñas
+                            propiedades en las que se plantaron viñedos y árboles frutales a las que se les daba el nombre de Finquitas,
+                            (pequeñas parcelas). A fines de la Colonia el número de estas Finquitas es considerable, constituyendo un
+                            agrupamiento humano, lo que hizo que posteriormente se transformara en Aldea.
+                        </p>
+                    </div>
+                    <!--col 2-->
+                    <div class="col-12 col-md-6">
+                        <img src="http://www.daemromeral.cl/images/Historiaderomeral/romero_001_1.jpeg" class="img-fluid" alt="his1">
+                    </div>
+                    
+                    <div class="col-12 col-md-6 "> 
+                        <img src="http://www.daemromeral.cl/images/Historiaderomeral/arq_aldeas.jpg" class="img-fluid" alt="his2" width="400"> <!--cuadrar-->
+                    </div>
+                    <!--P 2-->
+                    <div class="col col-12 col-md-12 p-2">
+                        <p>En un comienzo la Comuna se llamó Villa Alegre, cambiándose por el de Romeral. Se conserva actualmente esta
+                            denominación en los barrios del pueblo, pues a la parte alta se le llama Villa Alegre y a la baja Romeral , pero ,
+                            por lo general ya se ha adoptado el nombre de Romeral y a sus habitantes. romeralinos.
+                        
+                            Por Decreto del 16 de abril de 1898 la Aldea de Villa Alegre , obtuvo el Título de Villa. En 1925 a pedido de la
+                            Municipalidad y para evitar confusiones con la comuna de Villa Alegre de la provincia de Talca, se cambió
+                            oficialmente con el nombre de Comuna de Romeral.<hr>
+                        </p>
+                    </div>
+                    <!--modal prueba-->
+                    <div class="col col-12 col-md-12">
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-xl"> <!--XL-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Historia</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body"> <!--cuerpa modal-->
+                                        <div class="row">
+                                            <div class="col col-12 col-sm-12">
+                                                <h2>El Territorio Comunal</h2>
+                                                <p>                                
+                                                    Antes de la llegada de los españoles, en este territorio, no hubo asentamientos humanos permanentes y tan sólo era
+                                                    recorrido por nómades “Puelches” en sus excursiones de caza o de trueque, llevando sal de la cordillera para
+                                                    intercambiar por productos agrícolas con los “Curis” (Picunches) que tenían sus tolderíos y chozas cerca del Cerro
+                                                    de Curicó.
+                                                
+                                                    Lo anterior no impide que nuestro territorio comunal se hayan encontrado piedras horadadas, restos de utensilios y
+                                                    herramientas, pertenecientes a estos pueblos.
+                                                
+                                                    Durante el siglo XVII con el nombre de Hacienda El Guaico que abarcaba de norte a sur desde el río Teno hasta el río
+                                                    Lontué y de oeste a este desde el Cerro de Curicó (actual condell) hasta más allá de la Cordillera de Los Andes.
+                                                    Este límite era bien relativo ya que de hecho esta hacienda contó con terrenos de veranadas al otro lado de Los
+                                                    Andes.
+                                                </p>
+                                            </div>
+                                            <div class="col col-12 col-sm-12">
+                                                <img class="img-fluid" src="http://www.daemromeral.cl/images/Historiaderomeral/MenuDerecho_GraficosNuevos_07ROMERAL.GIF" alt="mapa">
+                                            </div>
+                                            <div class="col col-12 col-sm-12">
+                                                <h2>Aventuras</h2>
+                                                <p>A partir del mes de octubre y hasta marzo encontramos una gran aventura en Los Queñes, usted podrá realizar bajadas del rio Claro en cayacs o balsas con expertos instructores para contactarse con la empresa informarse en la “Pizzería Oassis”.</p>
+                                            </div>
+                                            <!--grid foto2 -->
+                                            <div class="col col-12 col-sm-12">
+                                                <img class="img-fluid imgcentra" src="http://www.daemromeral.cl/images/Los_que%C3%B1es/390285_2792395449861_1819932621_n.jpg" alt="aven1">
+                                            </div>
+                                        </div>                                    
+                                    </div><!--fin body-->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                <!--el mismisimo trigger-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Leer mas ...
+                </button>
+            </div><!--fin hist-->
+            
+        <!--footer sakuragi-->
+        <div class="p-3">     
+            <div class="card" style="text-align: center; background-color: rgba(22, 22, 22, 0.952); height: 23rem; width: 100%">
+                <div class="card-footer text-light">
+                    Featured By
+                </div>
+                <div class="card-body">
+                    <img class="img-fluid" src="https://pm1.narvii.com/6727/bd3cb54a31458e83a0886056608efc29fe4017bfv2_128.jpg" class="card-img-top" alt="ava-sakuragi"
+                    style="width: 9rem; border-radius: 5rem;">
+                </div>
+                    <h5 class="card-title text-light">Hanamichi Sakuragi</h5>
+                    <p class="card-text text-light">Talentoso jugardor de Shohoku.</p>
+                    <hr class="text-light">
+                    <p class="text-light"> 2022 - Derechos reservados - Felipe Trincado </p>
+            </div>
+        </div>
+    </div><!-- fin container-->
+
+    <!--script boostrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
